@@ -78,9 +78,11 @@ machine-learning-for-house-market-insights/
 ## 📷 Sample Visualizations
 
 ![Price Distribution by Waterfront View](images/price_distribution_by_waterfront_view.png)
+
 *Price Distribution by Waterfront View*
 
 ![Price Vs. Sqft Above Ground](images/price_vs_sqft.png)
+
 *Price Vs. Sqft Above Ground*
 
 ---
