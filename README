@@ -1,0 +1,111 @@
+# 🏡 King County House Price Prediction
+
+A data science project that uses regression models to predict house prices in King County, Washington. This project explores the relationship between housing features and sale prices, applying machine learning techniques to build a predictive model.
+
+---
+
+## 📌 Project Overview
+
+This project aims to:
+- Understand key factors influencing house prices
+- Clean and explore the King County housing dataset
+- Build and evaluate regression models to predict sale prices
+- Visualize insights for better interpretability
+
+Whether you are a data science enthusiast or a real estate investor, this project offers a practical look into predictive modeling using real-world data.
+
+---
+
+## 📁 Repository Structure
+├── data/ │   
+└── kc_house_data.csv
+├── notebook/ │   
+└── house_price_prediction.ipynb  
+├── images/ │   
+└── price_distribution.png
+
+---
+
+## 📊 Dataset
+
+- **Source**: [Kaggle - House Sales in King County, USA](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
+- **Size**: ~21,000 rows, 21 columns
+- **Features**: Includes price, bedrooms, bathrooms, sqft, location, and more
+
+---
+
+## 🧪 Technologies Used
+
+- **Python 3.9+**
+- **Pandas** – Data manipulation
+- **Matplotlib & Seaborn** – Visualization
+- **Scikit-learn** – Machine learning models
+- **Jupyter Notebook** – Interactive analysis
+
+---
+
+## 📈 Modeling Approach
+
+1. **Data Cleaning**
+   - Handle missing values
+   - Remove outliers
+   - Feature engineering
+
+2. **Exploratory Data Analysis (EDA)**
+   - Correlation heatmaps
+   - Distribution plots
+   - Price trends by location and features
+
+3. **Modeling**
+   - Linear Regression
+   - Decision Tree Regressor
+   - Random Forest Regressor
+   - Evaluation using RMSE and R²
+
+4. **Results**
+   - Random Forest performed best with R² ≈ 0.89
+   - Key predictors: sqft_living, grade, location, bathrooms
+
+---
+
+## 📷 Sample Visualizations
+
+![Price Distribution](images/price_distribution.png)
+*Distribution of house prices across King County*
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/king-county-house-price-prediction.git
+   cd king-county-house-price-prediction
+2. Install dependencies:
+    ``` bash
+    pip install -r requirements.txt
+3. Launch the notebook:
+    ``` bash
+  jupyter notebook notebook/house_price_prediction.ipynb
+
+## 📌 Future Improvements
+Add interactive dashboard using Streamlit or Plotly Dash
+- Incorporate geospatial analysis
+- Hyperparameter tuning with GridSearchCV
+
+## 📜 License
+
+This project is licensed under the 
+[Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+You may view and learn from the content, but **you may not reuse, redistribute, or modify it** for commercial or derivative purposes without permission.
+
+---
+
+## 💬 Contact
+
+Feel free to connect with me on [LinkedIn](https://linkedin.com/in/sidney-dang) or email at kyledang2711@gmail.com if you'd like to discuss this project or any opportunities.
+
+
+
+
